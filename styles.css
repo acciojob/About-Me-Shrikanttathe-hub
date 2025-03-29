@@ -1,1 +1,43 @@
-
+*{
+	margin: 0;
+	padding:0;
+	border-sizing:border-box;
+}
+.personalProfilePage{
+	padding:20px;
+	display:flex;
+	justify-content:space-between;
+	width:100%;
+}
+.main{
+	padding:20px;
+	width:50%;
+}
+.imageDetails{
+	display:flex;
+	justify-content:space-between;
+	align-items:center;
+	width:100%;
+}
+.imageDiv{
+	width:20%;
+}
+.imageDiv img{
+	width:100%;
+}
+.detailsSection span{
+	font-family:"roboto";
+  font-size:12px;
+	color:grey;
+}
+.skillsSection p{
+	padding:10px;
+}
+h1{
+	margin-bottom:20px;
+	width:20%;
+	border-bottom:5px solid lightskyblue;
+}
+.about{
+	width:50%;
+}
